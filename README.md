@@ -1,31 +1,36 @@
-# VittraCore
+# VittraCore MCP
 
 **Status:** Public • Read-Only • All Rights Reserved
 
-VittraCore is a proprietary Model-Context Protocol (MCP) server developed for secure, high-performance transaction orchestration in Agentic UPI Wallet systems. This repository serves as a **public showcase only** — it is not open-source, not reusable, and not licensed for redistribution or modification.
+VittraCore MCP (Model Context Protocol) is a secure, context-aware communication standard that enables AI agents to execute real-world operations—such as payments, bookings, and service orchestration—by interfacing with multiple systems using structured context and user-granted consent.
 
-## Overview
+## What is VittraCore?
 
-VittraCore handles concurrent message routing and session isolation across multiple UPI agents using custom protocol-layer handling. It's engineered for maximum resilience and control across fintech-grade systems.
+VittraCore acts as the backbone for Agentic UPI Wallet systems, offering a scalable protocol layer that empowers intelligent agents to interact with digital services in a secure and modular way. It abstracts away low-level APIs and exposes a unified interface that prioritizes context, intent, and action integrity.
 
-### Key Highlights
+## Key Capabilities
 
-- Multi-Channel Protocol abstraction  
-- Session-state isolation with real-time failover  
-- Modular plugin-ready architecture  
-- Designed for production-grade UPI interaction pipelines
+- Contextual message routing across multiple agents
+- Consent-enforced execution of critical actions (e.g. UPI transactions)
+- Stateless multi-service orchestration with isolation
+- Plugin-ready architecture for third-party service integrations
+- Production-grade resilience and observability
+
+## Why VittraCore?
+
+Most systems treat AI as just inference. VittraCore treats it as **agency**—with safety, structure, and precision. This is how agentic computing meets regulated systems like UPI.
 
 ## License
 
 **All Rights Reserved**  
 Copyright © 2025 Neeraj  
 
-This repository is provided for **demonstration and reference purposes only**.  
-Any form of reuse, modification, distribution, or integration is **strictly prohibited**.  
+This repository is intended **for demonstration only**.  
+No part of the source code or design may be copied, reused, modified, or distributed under any circumstances.  
 
-See [LICENSE](./LICENSE) for full legal restrictions.
+See [LICENSE](./LICENSE) for full terms.
 
 ## Contact
 
-For licensing, partnership, or demo requests:  
-**Neeraj Krishna K P** — krishnaneeraj773@gmail.com
+For demo requests or licensing inquiries:  
+**Neeraj** — krishnaneeraj773@gmail.com
